@@ -1,0 +1,68 @@
+EXP 8 CLASS AND FUNCTIONAL COMPONENT REACT JS
+phele ek *OLDER BANAKE TERMINAL OPEN KARKE
+YE COMMANDS DALO*
+npx create-react-app my-app
+
+FULL CODE CHANGES KARO PARTICULAR FILE ME
+
+
+>>>>index.html<<<<<
+<html>
+<head>
+<title>React App</title>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+</body>
+</html>
+
+>>>>>index.js<<<<<<
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+<React.StrictMode>
+<App color="green"/>
+</React.StrictMode>
+);
+
+>>>>>app.css<<<<<
+.App{
+background-color: blueviolet;
+text-align: center;
+border: solid red 10px;
+padding: 10px;
+color: white;
+}
+a{
+color:aqua;
+}
+h1{
+color: red;
+}
+.color{
+color:rgb(78, 240, 78);
+}
+
+>>>>>app.js<<<<
+import './App.css';
+import nature from './nature.png'
+function App(props) {
+return (
+<div className="App">
+<h2>My favorite color is <h3 className="color">{props.color}</h3> </h2>
+<h1>Aaswit Kanhed</h1>
+<a href="http://moodle.apsit.org.in/moodle/">Click here</a><br></br><br></
+br>
+<img src={nature}></img>
+</div>
+);
+}
+export default App;
+CTRL S ALL OF THEM
+THEN RUN THIS COMMANDS IN TERMINAL
+cd my-app
+npm start

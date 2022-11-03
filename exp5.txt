@@ -1,0 +1,67 @@
+EXP 5 ES6 FUNCTIONS
+//multiplicattion using arrow function
+let mul = (a,b)=>{
+console.log(a*b);
+}
+mul(10,9)
+//multiplication using arrow with default parameter
+let multiply = (a=10,b=3)=>{
+console.log(a*b);
+} 
+multiply();
+//rest parameter
+function show(...Amir){
+console.log(Amir);
+}
+show(3,7,9,5,1);
+//anonymous function
+let multiplication = function (c,d){
+console.log(c*d);
+}
+multiplication(5, 7);
+//simple function
+function mul2(x,y){
+console.log(x*y);
+}
+mul2(9,8);
+
+>>>>>>Fibonacci<<<<<<
+let fib1=0;
+let fib2=1;
+console.log(fib1);
+console.log(fib2);
+for (let f=1; f<= 10; f++){
+Fn = fib1 + fib2;
+console.log(Fn);
+fib1=fib2;
+fib2=Fn;
+}
+
+
+//arrow function
+let add = (a,b) => {
+let fib1=0;
+let fib2=1;
+console.log(fib1);
+console.log(fib2);
+for (let f = 1; f <= n ; f++){
+Fn=fib1 + fib2;
+console.log(Fn);
+fib1=fib2;
+fib2=Fn;
+}
+}
+add();
+let num=prompt(num)
+let evenodd = (num) => {
+if (num%2==0){
+console.log("Number is even");
+}
+else if(num % 2 != 0){
+console.log("Number is odd")
+}
+else{
+console.log("Number is neither even nor odd")
+}
+}
+evenodd(num);

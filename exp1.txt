@@ -1,0 +1,89 @@
+EXP 1 STUDENT PORTFOLIO HTML 5:
+>>>>>HOME PAGE<<<<<<
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body bgcolor="grey">
+ <h1><b>Amir Madoo</b></h1>
+ <img src="img.jpg" widht="10" alt="Profile Picture">
+ <br><br>
+ <center>
+ <a href="PersonalInfo.html">PersonalInfo</a>
+ <a href="Academics.html">My Academics&nbsp;</a>
+ <a href="ExtraActivities.html">Extra Curricular Activities</a>
+</center>
+</body>
+</html>
+
+>>>>PERSONAL PAGE<<<<<
+<html>
+<head>
+<body bgcolor="#03fc9d"> <h1> My Portfolio</h1>
+</header>
+<section>
+<h2><u>Basic Information </u></h2>
+</section>
+<div>
+<p> Name: Amir</p>
+<p>Class: TE</p>
+<p>Department: IT</p>
+</div>
+<p>MY HOBBIES</p>
+<ul>
+<li>Reading Books </li>
+<li>Playing Football</li>
+</ul>
+</body>
+</div>
+</head>
+</html>
+
+>>>>>>>>>ACADEMICS <<<<<<<<<<
+<!DOCTYPE html>
+<html>
+<head>
+<h1>This Page is all about my Academics</h1>
+<body bgcolor="orange">
+<table border="10px">
+<tr bgcolor="blue" style="color:chartreuse; font-size: large">
+<th>SUBJECT NAME</th>
+<th>OBTAINED</th>
+<th>OUTOFF</th>
+</tr>
+<tr>
+<td>MATHS</td>
+<td>40</td>
+<td>40</td>
+</tr>
+<tr>
+<td>ADSA</td>
+<td>40</td> <td>40</td>
+</tr>
+<tr></tr>
+<td>SCIENCE</td> <td>70</td>
+<td>70</td>
+</tr> </table>
+</body> </heads>
+
+>>>>>>>>>>OTHER<<<<<<<<<<<
+<!DOCTYPE html>
+<head>
+<body bgcolor="fuschia">
+<h1>These are my Extra Curricular Activities!</h1>
+<ol>
+<li>Cisco Networking Academy Course</li>
+<li>Palo Alto Cybersecurity</li>
+<li>Juniper Networking</li>
+</ol>
+<ul>
+<li> Java Mini Project</li>
+<li> Python Mini Project</li>
+</ul>
+</body>
+</head>
+</html>

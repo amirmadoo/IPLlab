@@ -1,0 +1,60 @@
+EXP 3 CSS WEB PAGE
+>>>>>>>>>>>INTERNAL CSS 1<<<<<<<<<<
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academics</title>
+
+<body bgcolor="yellow">
+<table border="10px"> <tr bgcolor="blue" style="color:chartreuse; fontsize: large">
+<h1 style="color:blue; text-align:center;">This Page is all about
+my Academics</h1>
+ <p style="color: rgb(236, 5, 5);">Following are the
+Studentsmarks</p>
+
+<th>rollno</th> <th>name</th>
+
+<th>marks</th>
+
+</tr>
+
+<tr>
+
+>>>>>>>>>>>>>>>>>>INTERNAL CSS 2<<<<<<<<<<<<<<
+<!DOCTYPE html>
+<html>
+<head>
+<body bgcolor="fuschia">
+<style>
+li{
+font-size:30px;
+font-weight:bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li:hover{
+justify-content:left;
+color:blue;
+}
+</style>
+<h1>These are my Extra Curricular Activities!</h1>
+<ol>
+<li>Cisco Networking Academy Course</li>
+<li>Juniper Networking</li>
+<li>Palo Alto Cybersecurity</li>
+</ol>
+<ul>
+<li>Java Mini Project</li>
+<li>Python Mini Project</li>
+</ul>
+</body>
+</head>
+</html>
+
+
+>>>>>>>>>>>>>>>>>EXTERNAL CSS<<<<<<<<<<<<<<<<<
+kisiko mile toh bhejo
