@@ -1,0 +1,103 @@
+EXP 10 REACT ROUTER
+>>>>>>Index.js<<<<<<<<
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Link, NavLink, Routes} from 'react-router-dom'
+import './index.css';
+import App from './App';
+import About from './About'
+import Contact from './Contact'
+import Notfound from './Notfound'
+
+const routing = (
+ <Router>
+ <div className='aa'>
+ <h1>React Router Example</h1>
+ <ul>
+ <li>
+ <NavLink to="/" exact activeStyle={
+ {color:'red'} 
+}>Home</NavLink>
+ </li>
+ <li>
+ <NavLink to="/About" exact activeStyle={
+ {color:'green'}
+ }>About</NavLink>
+ </li>
+ <li>
+ <NavLink to="/Contact" exact activeStyle={
+ {color:'magenta'}
+ }>Contact</NavLink>
+ </li>
+ </ul>
+
+ <Routes>
+ {/* <Route exact path="/" component={App} /> */}
+ <Route path="/" element={<App/>} exact />
+ {/* <Route path="/about" component={About} /> */}
+ <Route path="/About" element={<About />} />
+
+ {/* <Route path="/contact" component={Contact} /> */}
+ <Route path="/Contact" element={<Contact />} />
+ <Route component={Notfound} />
+</Routes>
+
+ </div>
+ </Router>
+)
+ReactDOM.render(routing, document.getElementById('root')); 
+
+>>>>>>App.js<<<<<<
+import React from 'react'
+import './App.css'
+class App extends React.Component {
+ render() {
+ return (
+ <div>
+ <h1 className='ccc'>Home</h1>
+ </div>
+ )
+ }
+}
+export default App 
+
+>>>>>>>>>About.js<<<<<<<<<<<<
+import React from 'react'
+import './App.css'
+class About extends React.Component {
+ render() {
+ return <h1 className='ccc'>This is About Page</h1>
+ }
+}
+export default About 
+
+>>>>>>>>Contact.js<<<<<<<<
+import React from 'react'
+import './App.css'
+class Contact extends React.Component {
+ render() {
+ return <h1 className='ccc'>welcome to Contact page!!!!!!!!</h1>
+ }
+}
+export default Contact 
+
+>>>>>>Index.css<<<<<<<
+.aa{
+ font-family: Lucida Handwriting;
+font-size: 20px;
+ background-color: bisque;
+ padding: 20px;
+ display:inline-block;
+ color:grey;
+}
+
+>>>>>>>>App.css<<<<<<<<<<<
+.ccc{
+ background-color: aqua;
+ padding: 20px;
+ border: solid red 3px;
+ text-align: center;
+ font-family: Helvetica;
+ color: blueviolet;
+}
+
