@@ -39,7 +39,8 @@ fib2=Fn;
 
 
 //arrow function
-let num=prompt(num)
+const prompt=require("prompt-sync")({sigint:true});
+let num = prompt("Enter a number: ");
 let evenodd = (num) => {
 if (num%2==0){
 console.log("Number is even");
