@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function val() {
+let fullname= document.forms["Reg"]["fullname"].value;
+let email = document.Reg.email.value;
+let password=document.Reg.password.value;
+let Password = document.Reg.Password.value;
+let Gender = document.Reg.Gender.value;
+alert(fullname);
+if (!(isNaN(fullname))) {
+alert("enter only characters for fullname");
+document.Reg.fullname.focus();
+return false;
+}
+if (password.length < 8 || Password.length < 8)
+{ alert("password must be minimum 8 in length");
+document.Reg.password. focus();
+return false;
+}
+}
+</script>
+</head>
+<body style="background-color: rgb(20, 169, 228);">
+<center>
+    <h1>Registration Form</h1>
+    <h3>User Personal Information</h3>
+    <form name="Reg" method="get">
+    <label>Enter your Full Name</label> <br>
+    <input type="text" name="fullname" required><br>
+    <label>Enter your email</label><br>
+    <input type="email" name="email" required><br>
+    <label>Enter your Password</label><br>
+    <input type="password" name="password" required><br>
+    <label>Confirm your Password</label><br>
+    <input type="password" name="Password" required><br>
+    <label>Enter your Gender</label><br>
+    <input type="radio" name="radio" required>Male<br>
+    <input type="radio" name="radio" required>Female<br>
+    <input type="radio" name="radio" required>Other<br>
+    <br><br>
+    <label>Enter Your Address</label><br> <textarea name="textarea" rows="5"
+    cols="20"></textarea>
+    <input type="submit" name="Submit" onclick="val()"><br>
+    </center>
+    </form>
+    </body>
+    </html>
